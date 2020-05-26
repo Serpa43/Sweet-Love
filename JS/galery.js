@@ -2,7 +2,6 @@
 function myFunction(event) {
   console.log(event)
   var elementId;
-  debugger;
   if (event.target.id === "next" || event.target.id === "prev") {
     elementId = event.target.hash;
   }
